@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+
+cat <<'EOF2' > .gitignore
+# ========================================
+# Template: project specific
+# ========================================
+uploads
+*.pid
+__pycache__
+*.log
+*.db
+creation_log
+*-swp
+# Fichiers temporaires
+*.tmp
+*.log
+*.bak
+*.pid
+# ========================================
+# Template: shell
+# ========================================
+logs/
+output/
+infos/
+result/
+results/
+backup/
+*.log
+*.zip
+*.tar.gz
+*.rar
+certs/
+secrets/
+EOF2
